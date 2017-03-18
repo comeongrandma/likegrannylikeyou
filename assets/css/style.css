@@ -1,0 +1,39 @@
+@charset "UTF-8";
+#top .banner01{background: url("../../images/cutie.jpg") 50% 50%;background-size: cover;}
+#top .banner02{background: url("../../images/banner.jpg") 50% 50%;background-size: cover;}
+.banner02 li {list-style: none;display: block;float: left;}
+.banner02 li:first-child{margin-right:2em;}
+#banner.banner02 li a{line-height: 2.7em;font-size: 14px;width: 150px;font-family: 微軟正黑體;}
+
+.zone01{margin-top:10vh;}
+
+/*zone01*/
+.zone01 .box a.image{height:350px;background-repeat: no-repeat;background-color: #fff;background-position: 50%;background-size: cover;}
+.zone01-box01 a.image{background-image: url(../../images/kol01.jpg);}
+.zone01-box02 a.image{background-image: url(../../images/test.jpg);}
+.zone01-box03 a.image{background-image: url(../../images/pic04.jpg);}
+.zone01-box04 a.image{background-image: url(../../images/pic05.jpg);}
+
+
+/*zone02*/
+.zone02 .box a.image{height:280px;background-repeat: no-repeat;background-color: #fff;background-position: 50%;background-size: cover;}
+.zone02-box01 a.image{background-image: url(../../images/pic01.jpg);}
+.zone02-box02 a.image{background-image: url(../../images/pic02.jpg);}
+.zone02-box03 a.image{background-image: url(../../images/pic03.jpg);}
+
+
+@media screen and (min-width: 980px) {
+	#top .banner01{background: url(../../images/cutie.jpg) #fff 50% 50% no-repeat;background-size: 90%; height: 80vh;}
+	
+}
+@media screen and (min-width: 736px) {
+	.banner02 li {position: relative;top: 7em;}
+}
+@media screen and (max-width: 736px) {
+	#banner.banner02 li a{width: 20vh;}
+	.banner02 li{float: right;}
+	.banner02 li:first-child{float: left;}
+	#banner{min-height:70vh}
+	.banner02 li {position: relative;top: 6em;}
+
+}
