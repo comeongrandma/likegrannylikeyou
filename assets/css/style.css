@@ -1,6 +1,6 @@
 @charset "UTF-8";
-#top .banner01{background: url("../../images/cutie.jpg") 50% 50%;background-size: cover;}
-#top .banner02{background: url("../../images/banner.jpg") 50% 50%;background-size: cover;}
+#top .banner01{background: url("../../images/cutie.jpg") 50% 50%;background-size: cover;height: 100vh;}
+#top .banner02{background: url("../../images/banner.jpg") 50% 50%;background-size: cover;height: 80vh;}
 .banner02 li {list-style: none;display: block;float: left;}
 .banner02 li:first-child{margin-right:2em;}
 #banner.banner02 li a{line-height: 2.7em;font-size: 14px;width: 150px;font-family: 微軟正黑體;}
@@ -23,7 +23,7 @@
 
 
 @media screen and (min-width: 980px) {
-	#top .banner01{background: url(../../images/cutie.jpg) #fff 50% 50% no-repeat;background-size: 90%; height: 80vh;}
+	#top .banner01{background: url(../../images/cutie.jpg) #fff 50% 50% no-repeat;background-size: 90%;}
 	
 }
 @media screen and (min-width: 736px) {

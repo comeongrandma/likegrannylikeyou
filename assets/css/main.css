@@ -314,6 +314,8 @@
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
+		max-width: 1200px;
+		margin: 0 auto;
 	}
 
 		.thumbnails .box {
@@ -324,7 +326,7 @@
 			@media screen and (max-width: 1280px) {
 
 				.thumbnails .box {
-					width: 45%;
+					width: 30%;
 				}
 
 			}
