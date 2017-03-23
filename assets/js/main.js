@@ -88,7 +88,7 @@
 			$('.scrolly').scrolly();
 
 		// Poptrox.
-			$window.on('load', function() {
+		/*	$window.on('load', function() {
 
 				var $thumbs = $('.thumbnails');
 
@@ -107,7 +107,7 @@
 					});
 
 			});
-
+*/
 		// Initial scroll.
 			$window.on('load', function() {
 				$window.trigger('scroll');

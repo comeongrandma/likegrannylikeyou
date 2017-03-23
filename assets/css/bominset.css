@@ -1,0 +1,650 @@
+/* 通用*/
+* {
+	margin: 0;
+	font-family: 'Stag Sans Light', 'Stag Sans Thin', 'sans-serif',;  /*背景*//*全螢幕 'Microsoft JhengHei'*/
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/* set image max width to 100% */
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}
+/*中間內容*/
+.center1366 {
+	max-width: 1366px;
+	margin: 0 auto;
+	padding: 0 50px;
+	display: block;
+}
+.center1170 {
+	width: 1170px;
+	margin: 0 auto;
+	padding: 0 50px;
+	display: block;
+}
+/*空間*/
+.space1 {
+    max-width: 100%;
+    padding: 0 5px;
+    float: left;
+}
+.space2 {
+    max-width: 50%;
+    padding: 0 5px;
+    float: left;
+}
+.space3 {
+    max-width: 33.3333%;
+    padding: 0 5px;
+    float: left;
+}
+.space4 {
+    max-width: 25%;
+    padding: 0 5px;
+    float: left;
+}
+.space5 {
+    max-width: 20%;
+    padding: 0 5px;
+    float: left;
+}
+/* 螢幕等高 */
+.vh100 {
+	height: 100vh;
+}
+/*置中*/
+.center {
+	margin: 0 auto;
+}
+/* 浮動float*/
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.clear {
+	clear: both;
+}
+/* 定位 */
+.rel {
+	position: relative;
+}
+.abs {
+	position: absolute;
+}
+.fix {
+	position: fixed;
+}
+.z1 {
+	z-index: 1;
+}
+.z2 {
+	z-index: 2;
+}
+.z3 {
+	z-index: 3;
+}
+.z4 {
+	z-index: 4;
+}
+.z5 {
+	z-index: 5;
+}
+.z6 {
+	z-index: 6;
+}
+.z7 {
+	z-index: 7;
+}
+.z8 {
+	z-index: 8;
+}
+.z-1 {
+	z-index: -1;
+}
+.z99 {
+	z-index: 99;
+}
+.z999 {
+	z-index: 999;
+}
+.z9999 {
+	z-index: 9999;
+}
+/* 背景色 */
+.bgwhite {
+	background-color: #fff;
+}
+.bggray {
+	padding: 1% 0;
+	background-color: #E9E9EA;
+	/*border:solid 2px #E9E9EA;*/
+}
+.bggrayd {
+	background-color: #aaaaaa;
+}
+.bgblack {
+	background-color: #313131;
+}
+.bggold {
+	background-color: #bda999;
+}
+.bggoldd {
+	background-color: #998376;
+}
+.bgred {
+	background-color: #ba282a;
+}
+.bgyred {
+	background-color: #d82c2c;
+}
+.bgcomplexion {
+	background-color: #faf5f0;
+}
+.bgbrown {
+	background-color: #a28265;
+}
+.bgorange {
+	background-color: #f7965b;
+}
+.bgpurple {
+	background-color: #7e308e;
+}
+.bgyellow {
+	background-color: #f8c733;
+}
+/* 螢光 */
+.bgshockgren {
+	background-color: #02e847;
+}
+.bgshockyel {
+	background-color: #f6ff3b;
+}
+.bgshockpnk {
+	background-color: #db337a;
+}
+
+
+/* 分隔線 */
+.line {
+	border-top: 1px inset #bda999;
+	margin: 3% 0 1% 0;
+	padding: 1% 0;
+	clear: both;
+}
+.linew {
+	border-top: 1px solid #fff;
+	margin: 1% 0;
+	padding: 1% 0;
+	clear: both;
+}
+.linewb {
+	border-top: 5px solid #fff;
+	margin: 3% 0 1% 0;
+	padding: 1% 0;
+	clear: both;
+}
+.lineg {
+	border-top: 1px solid #bda999;
+	margin: 3% 0 1% 0;
+	padding: 1% 0;
+	clear: both;
+}
+/* 垂直分隔線 */
+.vline {
+	border-right: 1px inset #bda999;
+	margin: 0 6%;
+	padding: 8% 0;
+	float:left;
+}
+.vlinew {
+	border-right: 1px solid #fff;
+	margin: 0 6%;
+	padding: 8% 0;
+	float:left;
+}
+.vlinews {
+	border-right: 1px solid #fff;
+	margin: 0 4%;
+	padding: 5% 0;
+	float:left;
+}
+
+/* 外框 */
+.framew {
+	border: 1px inset #fff;
+}
+.frameg {
+	border: 1px inset #bda999;
+}
+.framesg {
+	border: 1px solid;
+}
+
+/* 字色 */
+.tred {
+	color: #ba282a;
+}
+.tgold {
+	color: #bda999;
+}
+.tgoldd {
+	color: #998674;
+}
+.tgray35 {
+	color: #bfbfbf;
+}
+.tgray75 {
+	color: #6D6D6D;
+}
+.tbgray35 {
+	color: #6f96ab;
+}
+.tgray50 {
+	color: #a0a0a0;
+}
+.tgray70 {
+	color: #707070;
+}
+.twhite {
+	color: #fff;
+}
+.tbrown {
+	color: #b48e6c;
+}
+.tblack {
+	color: #313131;
+}
+.torange {
+	color: #f17a46;
+}
+.tblue {
+	color: #57a2eb;
+}
+.tbluepurple {
+	color: #a57ded;
+}
+.tgreen {
+	color: #c4d46b;
+}
+.tpurple {
+	color: #9332a7;
+}
+/* 螢光 */
+.tshockgren {
+	color: #02e847;
+}
+.tshockyel {
+	color: #f6ff3b;
+}
+.tshockpnk {
+	color: #db337a;
+}
+.tshockblue {
+	color: #45beff;
+}
+
+/*文字陰影*/
+.tshadow {
+	text-shadow:2px 1px 7px #000000;
+}
+.twshadow {
+	text-shadow:2px 1px 7px #fff;
+}
+
+/*文字對齊*/
+.tcter {
+	text-align: center;
+}
+.tlef {
+	text-align: left;
+}
+.trht {
+	text-align: right;
+}
+.tjustify{
+	text-align: justify;
+}
+
+.thcter{
+	vertical-align: middle;
+	}
+/* 字級 */
+.hb-0 {
+	font-size: 6em;
+	font-weight: 100;
+	line-height: 1em;
+}
+.h0-0 {
+	font-size: 4em;
+	font-weight: 100;
+	line-height: 1em;
+}
+.h0-1 {
+	font-size: 4em;
+	font-weight: 100;
+	line-height: 1.3em;
+}
+.h1-0 {
+	font-size: 3.5em;
+	font-weight: 100;
+	line-height: 1em;
+}
+.h1-1 {
+	font-size: 3.5em;
+	font-weight: 100;
+	line-height: 1.2em;
+}
+.h2-0   {
+	font-size: 3em;
+	font-weight: 100;
+	line-height: 1em;
+}
+.h2-1   {
+	font-size: 3em;
+	font-weight: 100;
+	line-height: 1.2em;
+}
+.h3-0 {
+	font-size: 2.5em;
+	font-weight: 100;
+	line-height: 1.1em;
+}
+.h3-1 {
+	font-size: 2.5em;
+	font-weight: 100;
+	line-height: 1.2em;
+}
+.h4-0 {
+	font-size: 2.2em;
+	font-weight: 100;
+	line-height: 1.1em;
+}
+.h4-1 {
+	font-size: 2.2em;
+	font-weight: 100;
+	line-height: 1.3em;
+}
+.h4-2 {
+	font-size: 2.2em;
+	font-weight: 100;
+	line-height: 1.5em;
+}
+.h5-0 {
+	font-size: 1.8em;
+	font-weight: 100;
+	line-height: 1.1em;
+}
+.h5-1 {
+	font-size: 1.8em;
+	font-weight: 100;
+	line-height: 1.5em;
+}
+.h5-2 {
+	font-size: 1.8em;
+	font-weight: 100;
+	line-height: 1.5em;
+}
+.h6-0 {
+	font-size: 1.5em;
+	font-weight: 100;
+	line-height: 1.1em;
+}
+.h6-1 {
+	font-size: 1.5em;
+	font-weight: 100;
+	line-height: 1.3em;
+}
+.h6-2 {
+	font-size: 1.5em;
+	font-weight: 100;
+	line-height: 1.6em;
+}
+.h7-0 {
+	font-size: 1.3em;
+	font-weight: 100;
+	line-height: 1.1em;
+}
+.h7-1 {
+	font-size: 1.3em;
+	font-weight: 100;
+	line-height: 1.2em;
+}
+.p-0 {
+	font-size: 1.1em;
+	font-weight: 100;
+	line-height: 1.1em;
+}
+.p-1 {
+	font-size: 1.1em;
+	font-weight: 100;
+	line-height: 1.4em;
+}
+.p-2 {
+	font-size: 1.1em;
+	font-weight: 100;
+	line-height: 1.7em;
+}
+
+/* 字級間距 */
+.ls1 {
+	letter-spacing: 0.1em;
+}
+.ls2 {
+	letter-spacing: 0.2em;
+}
+.ls3 {
+	letter-spacing: 0.3em;
+}
+.ls5 {
+	letter-spacing: 0.5em;
+}
+.ls7 {
+	letter-spacing: 0.7em;
+}
+
+/*垂直間隔*/
+.ht1{ padding-bottom:1vh;}
+.ht2{ padding-bottom:2vh;}
+.ht3{ padding-bottom:3vh;}
+.ht4{ padding-bottom:4vh;}
+.ht5{ padding-bottom:5vh;}
+.ht7{ padding-bottom:7vh;}
+.ht9{ padding-bottom:9vh;}
+.ht11{ padding-bottom:11vh;}
+.ht21{ padding-bottom:21vh;}
+.ht25{ padding-bottom:25vh;}
+.ht35{ padding-bottom:35vh;}
+.ht45{ padding-bottom:45vh;}
+.ht50{ padding-bottom:50vh;}
+
+/*文字陰影*/
+.tshad {
+	text-shadow: 1px 1px 8px rgba(0,0,0,0.5);
+}
+
+/*文字刪除線*/
+.tline-through {
+	text-decoration: line-through;
+}
+.tline-under {
+	text-decoration: underline;
+}
+
+/*按鈕*/
+.nubtns {
+	display: inline-block;
+	margin-bottom: 0;
+	font-weight: normal;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	color: #fff;
+	background-image: none;
+	border: 1px solid transparent;
+	white-space: nowrap;
+	padding: 8px 20px;
+	line-height: 1.42857143;
+	border-radius: 3px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	text-decoration: none;
+	/*漸變*/
+	-webkit-transition: all .5s ease 0s;
+	-moz-transition: all .5s ease 0s;
+	-ms-transition: all .5s ease 0s;
+	-o-transition: all .5s ease 0s;
+	transition: all .5s ease 0s;
+	/*陰影*/
+	-webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+.nubtns:hover {
+	opacity: 0.8;
+	color: rgba(210,210,210,0.82);
+	text-decoration: none;	
+	/*陰影*/
+	-webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.9);
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.9);
+}
+.nubtn {
+	display: inline-block;
+	margin-bottom: 0;
+	font-weight: normal;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	color: #fff;
+	background-image: none;
+	border: 1px solid transparent;
+	white-space: nowrap;
+	padding: 8px 40px;
+	line-height: 1.42857143;
+	border-radius: 3px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	text-decoration: none;
+	/*漸變*/
+	-webkit-transition: all .5s ease 0s;
+	-moz-transition: all .5s ease 0s;
+	-ms-transition: all .5s ease 0s;
+	-o-transition: all .5s ease 0s;
+	transition: all .5s ease 0s;
+	/*陰影*/
+	-webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+.nubtn:hover {
+	opacity: 0.8;
+	color: rgba(210,210,210,0.82);
+	text-decoration: none;	
+	/*陰影*/
+	-webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.9);
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.9);
+}
+.nubtn a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.nubtn a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.nubtn2 {
+	display: inline-block;
+	margin-bottom: 0;
+	font-weight: normal;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	color: #fff;
+	background-image: none;
+	border: 3px solid rgba(255,255,255,1.00);
+	white-space: nowrap;
+	padding: 8px 40px;
+	line-height: 1.42857143;
+	border-radius: 1px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	text-decoration: none;
+	/*漸變*/
+	-webkit-transition: all .5s ease 0s;
+	-moz-transition: all .5s ease 0s;
+	-ms-transition: all .5s ease 0s;
+	-o-transition: all .5s ease 0s;
+	transition: all .5s ease 0s;
+	/*陰影*/
+	-webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+.nubtn2:hover {
+	opacity: 0.8;
+	color: rgba(153,131,118,1.00);
+	border: 3px solid rgba(153,131,118,1.00);
+	text-decoration: none;	
+	/*陰影*/
+	-webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.9);
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.9);
+}
+.nubtn2 a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.nubtn2 a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+/* loading*/
+.loading{
+	opacity:1;
+	width:66px;
+	height:66px;
+	margin:0 auto;
+	background-image: url(../images/loadings.gif);
+	background-repeat: no-repeat;
+	animation: loading 5s ease 0s 1 normal;
+	-moz-animation: loading 5s ease 0s 1 normal;
+	-webkit-animation: loading 5s ease 0s 1 normal;/*動畫名稱 秒數快慢 速率 延遲秒數 次數 相反或正常播放*/
+	}
+@keyframes loading {
+0% {
+opacity:0.2;
+}
+
+100% {
+opacity:1;
+}
+}
+@-moz-keyframes loading {
+0% {
+opacity:.2;
+}
+
+100% {
+opacity:1;
+}
+}
+@-webkit-keyframes loading {
+0% {
+opacity:.2;
+}
+
+100% {
+opacity:1;
+}
+}
+
+
+/*通用end*/
