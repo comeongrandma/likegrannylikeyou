@@ -185,3 +185,23 @@
 .zone01-box06 a.image {
 	background-image: url(../../images/kol01.jpg);
 }
+
+.zone00 .box a.image {
+	/*height: 300px;
+	background-repeat: no-repeat;*/
+	background-color: #fff;
+	background-position: 50%;
+	background-size: cover;
+}
+.zone00-box01 a.image {
+	background-image: url(../../images/KOL01.jpg);
+}
+.zone00-box02 a.image {
+	background-image: url(../../images/KOL02.jpg);
+}
+.zone00-box03 a.image {
+	background-image: url(../../images/KOL03.jpg);
+}
+.zone00-box04 a.image {
+	background-image: url(../../images/KOL04.jpg);
+}
